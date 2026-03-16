@@ -11,9 +11,13 @@ const COMMANDS = {
   STORE: '!store',
   SET_STATS: '!setstats',
   MAX_HP: '!maxhp',
+  DAMAGE: '!damage',
+  HEAL: '!heal',
+  WOUND: '!wound',
   UPSKILL: "Usage: !upskill <characterName> <skillName>",
   INITIATIVE: '!initiative',
-  CONDITION: '!condition'
+  CONDITION: '!condition',
+  ALLSPELLS: '!allspells'
 };
 
 const USAGE = {
@@ -28,7 +32,12 @@ const USAGE = {
   SET_STATS: 'Usage: !setstats <characterName> <stat> <value>',
   MAX_HP: 'Usage: !maxhp <characterName> <value>',
   INITIATIVE: 'Usage: !initiative <characterName>',
-  CONDITION: 'Usage: !condition <characterName> <condition_name>\nDescription: Toggle a condition for a character.'
+  CONDITION: 'Usage: !condition <characterName> <condition_name>\nDescription: Toggle a condition for a character.',
+  ALLSPELLS: 'Usage: !allspells',
+  DAMAGE: 'Usage: !damage <characterName> <amount>',
+  HEAL: 'Usage: !heal <characterName> <amount>',
+  WOUND: 'Usage: !wound <characterName> <amount>',
+  INITIATIVE: 'Usage: !initiative <characterName>'
 };
 
 module.exports = {
